@@ -1,2 +1,2 @@
-# SC2
-Lab work 2 for Software Construction
+# Software Construction
+Lab works for Course of Software Construction
