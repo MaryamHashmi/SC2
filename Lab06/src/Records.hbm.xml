@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="lab06.Records" table="records">
+  <meta attribute="class-description">
+         This class contains the employee detail.meowww.
+      </meta>
+      <id name="locId" type="int" column="locId">
+         <generator class="native"/>
+      </id>
+	<property name="country" column="country" type="string"/>
+	<property name="region" column="region" type="string"/>
+	<property name="city" column="city" type="string"/>
+	<property name="postalCode" column="postalCode" type="string"/>
+	<property name="latitude" column="latitude" type="string"/>
+	<property name="longitude" column="longitude" type="string"/>
+	<property name="metroCode" column="metroCode" type="string"/>
+	<property name="areaCode" column="areaCode" type="string"/>
+  </class>
+</hibernate-mapping>
