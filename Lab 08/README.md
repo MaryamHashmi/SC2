@@ -1,7 +1,7 @@
- ###Software Construction
-#Gradebook
- ####Wed April 19, 2017. Lab 08
-##Introduction
+#### Software Construction
+# Gradebok
+#### Wed April 19, 2017. Lab 08
+## Introduction
 The lab was about gradebook which is used to keep track of grade achieved by a
 student, in course contents. As a result when modeling a gradebook, courses,
 teachers, students, course learning outcomes and the achieved marks, against
